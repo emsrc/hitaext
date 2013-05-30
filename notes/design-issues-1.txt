@@ -1,0 +1,62 @@
+It seems inefficient to iterate over the document trees for a number of times. 
+However, this is really necessary given all the different requirements.  
+
+1st pass over document trees:
+HitaextDoc.init_elems(self, side, tree)
+
+- performed only for new documents
+- requires two document trees (of type IndexElemTree)
+- initializes the <render> section, setting the skip, ignore, newline, blankline,
+  and ignore attributes to their default values for each element occurring in the 
+  document tree 
+- initializes pseudoRoot to the docuemnt tree root
+
+
+2nd pass over document trees:
+IndexElemTree.update(self, ignoreTags=[], newlineTags=[], blanklineTags=[])
+
+- requires ignore, newline, blankline attributes
+  (as ignoreTags, newlineTags, blanklineTags lists)
+- requires pseudoRoot
+- initializes the _start, _end, _alignments and _n attributes
+- constructs the tagCountTable which maps from tag count to element
+- derives the text string
+- note that IndexElemTree.update is not called from IndexElemTree.__init__
+  to allow the document trees in the 1st pass to be IndexElemTrees already
+- called every time render options change, 
+  but then without changing tagCountTable or _alignments
+
+
+3rd pass over document trees:
+AlignFrame.injectAlignment(self, alignTree)
+
+- requires _alignment attribute and tagCountTable,
+  hence cannot be merged with the 2nd pass
+- fills _alignment list acording to <alignment> section in hitaext document
+- this is not really a full pass over the document trees, 
+  because it iterates over the elements in the <alignment> section of the HitaextDoc;
+  hence it cannot be merged with the 4th pass
+
+
+4th pass over document trees:
+HitaextTreeCtrl.processElemTree(self, pseudoRoot=None, skipTags=[])
+
+- requires pseudoRoot and skip attributes (as skipTags list)
+- requires _alignments
+- creates corresponding  items of HitaextTreeCtrl, 
+  setting them aligned (green font color) or unaligned (red font color)
+- adds _item back-pointer attribute to access item from element
+- might be merged with 2nd pass, but then things become very messy
+- called every time render options change
+
+
+5th pass over document trees:
+AlignFrame.extractAlignment(self, alignTree)
+
+- performed only when saving documents
+- replace the links in the <alignments> section of the Hitaext XML document 
+  according to the alignments in both ElemTreeCtrls
+
+
+
+

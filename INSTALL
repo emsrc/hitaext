@@ -1,0 +1,135 @@
+================================================================================
+
+    INSTALL
+
+================================================================================
+
+Hitaext: Hierarchical Text Alignment Tool
+Version 1.0
+
+Copyright (C) 2007-2010 by Erwin Marsi and TST-Centrale
+
+http://daeso.uvt.nl/hitaext
+e.c.marsi@uvt.nl
+
+
+--------------------------------------------------------------------------------
+    Mac OS X binary distribution
+--------------------------------------------------------------------------------
+
+Install:
+
+1. Download the file hitaext-1.0.dmg.zip
+
+2. Double click to unzip te archive
+
+3. Double click the file hitaext-1.0.dmg to mounnt the disk image
+
+4. Change directory to the disk called hitaext-1.0
+
+5. Drag the application called Hitaext to your Applications folder
+
+6. Optional: copy the the files README, INSTALL, COPYING, CHANGES and the
+   directories data and doc to a convenient location for later use 
+   (e.g. a new Hitaext folder in your Documents folder)
+
+7. Unmount the disk called hitaext-1.0
+
+   
+Uninstall: 
+
+1. Delete Hitaext from your Applications folder
+
+2. Delete any other files you copied in step 6 of the installation.
+
+
+--------------------------------------------------------------------------------
+    MS Windows binary distribution
+--------------------------------------------------------------------------------
+
+Install:
+
+1. Download the file setup-hitaext-1.0.exe
+
+2. Double click to run the installer
+
+
+Uninstall:
+
+1. Open the "Control Panel". 
+   
+2. Double click "Add or Remove Software".
+   
+3. Select Hitaext-1.0 and click the button "Remove"
+
+
+--------------------------------------------------------------------------------
+    GNU Linux package distribution
+--------------------------------------------------------------------------------
+
+(todo...)
+
+
+
+--------------------------------------------------------------------------------
+    Source distribution
+--------------------------------------------------------------------------------
+
+Install:
+
+1. Make sure you have Python (>=2.5) and wPython (>=2.8) installed. The command
+
+      python -c "import wx"
+      
+   should not return any errors ("command not found", "ImportError", etc)
+   
+2. Install Daeso Framework, a Python library available from 
+   http://daeso.uvt.nl
+   
+3. Download the source archive in your preferred format (e.g. hitaext-1.0.tar.gz)
+
+3. Unpack (e.g. tar xvzf hitaext-1.0.tar.gz) in a suitable location 
+   (e.g. /usr/local/src)
+   
+5. Change directory to the root of the unpacked archive (e.g. cd hitaext-1.0) 
+   
+6. Install using the command
+
+      python setup.py -v install
+      
+   You probably need to be root or administrator to be allowed to do a
+   system-wide install. For more information (alternative install locations,
+   trouble shooting, etc) see Installing Pyton Modules at
+   http://docs.python.org/inst/inst.html
+   
+7. Look in the ouput of the previous setup.py command to see to which directory 
+   the main script hitaext.py was copied to. Make sure this directory is in 
+   your search path or copy hitaext.py to another directory in your search path.
+   
+8. Optional: copy the files README, INSTALL, COPYING, CHANGES and the directories 
+   data and doc to a convenient location for later use (e.g. to 
+   /usr/share/doc/hitaext).
+   
+9. Optional: remove the unpacked archive
+
+
+Usage:
+
+Run script "hitaext.py" from the command line. 
+Use "-h" option to get help on command line options.
+   
+
+Uninstall:
+
+1. Remove the htxt and daeso directories from Python's site-packages folder.
+
+2. Remove hitaext.py from Python's bin or scripts directory; see step 7 of the
+   installation.
+
+3. Remove the files copied in step 8 of the installation. 
+
+
+$Id:$
+
+
+   

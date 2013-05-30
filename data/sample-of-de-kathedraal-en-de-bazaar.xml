@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book>
+  <title>De kathedraal en de bazaar</title>
+  <author>Eric S. Raymond</author>
+  <chapter>
+    <head>De kathedraal en de bazaar</head>
+    <p>
+      <s>Linux is tegendraads.</s>
+      <s>Wie zou nog geen vijf jaar geleden hebben vermoed dat een  besturingssysteem van wereldklasse als door toverkracht kon ontstaan uit de versmelting van in deeltijd verricht programmeerwerk door enige duizenden ontwikkelaars, die over de hele planeet verspreid slechts werden verbonden door de dunne draadjes van het Internet?</s>
+    </p>
+    <p>
+      <s>Ik zeker niet.</s>
+      <s>Toen Linux begin 1993 in mijn gezichtsveld verscheen was ik al meer dan 10 jaar betrokken bij Unix- en Open Source ontwikkeling.</s>
+      <s>Ik was een van de eersten die aan GNU bijdroeg halverwege de jaren 80.</s>
+      <s>Ik had een grote hoeveelheid open source software op het net vrijgegeven, als ontwikkelaar of mede-ontwikkelaar van diverse programma's (nethack, Emacs VC en GUD modes, xlife, en andere) die tot op de dag van vandaag algemeen in gebruik zijn.</s>
+      <s>Ik dacht dat ik wist hoe je het aan moest pakken.</s>
+    </p>
+    <p>
+      <s>Linux gooide veel van wat ik dacht te weten overhoop.</s>
+      <s>Ik had het Unix evangelie 'kleine tools, vlot prototypen en evolutionair programmeren' jarenlang gepredikt.</s>
+      <s>Maar ik geloofde ook dat er een bepaalde kritieke complexiteit bestond, waarboven een meer gecentraliseerde a priori aanpak nodig werd.</s> 
+      <s>Ik meende dat de belangrijkste software (zoals besturingssystemen en werkelijk omvangrijke tools als Emacs) overeenkomstig kathedralen gebouwd moesten worden; zorgvuldig gewrocht door individuele tovenaars of kleine groepen magi&#xEB;rs, die in volmaakte afzondering hun werk deden, zonder ooit voortijdig een betaversie uit te brengen.</s>
+    </p>
+    <p>
+      <s>De ontwikkelstijl van Linus Torvalds - geef vroeg en vaak je code vrij, besteed alles uit wat je maar kunt, wees tot in het absurde open over alles - kwam als een verrassing.</s>
+      <s>Hier geen rustig, eerbiedig bouwen van een kathedraal - de Linux gemeenschap leek eerder op een grote leuterende bazaar met niet overeenkomende agenda's en verschillende aanpak (treffend gesymboliseerd door de Linux archief sites, die inzendingen van iedereen accepteerden), waaruit een coherent en stabiel systeem ogenschijnlijk alleen maar door een opeenvolging van wonderen kon ontstaan.</s>
+    </p>
+    <p>
+      <s>Het feit dat deze bazaar-stijl leek te werken, en zelfs goed werkte, kwam als een klap.</s>
+      <s>Terwijl ik mijn weg hierin leerde vinden werkte ik niet alleen hard aan individuele projecten, maar ook aan het proberen te begrijpen waarom de Linux wereld niet alleen niet in verwarring uiteen spatte, maar zich van het ene pluspunt naar het volgende bewoog en wel met een snelheid die kathedraalbouwers zich niet konden voorstellen</s>
+    </p>
+    <p>
+      <s>Rond het midden van 1996 dacht ik dat ik het begon te begrijpen. </s> 
+      <s>De voorzienigheid reikte me een perfecte methode aan om mijn theori&#xEB;n te testen, in de vorm van een open source project wat ik bewust probeerde uit te voeren in de bazaar-stijl.</s>
+      <s>Ik deed dit - en het werd een significant succes.</s>
+    </p>
+    <p>
+      <s>In de rest van dit artikel vertel ik het verhaal van dat project en ik gebruik dit om een aantal kernspreuken naar voren te brengen over effectief open source ontwikkelwerk.</s>
+      <s>Niet al deze aforismen heb ik als eerste in de Linux wereld geleerd, maar we zullen zien hoe de Linux wereld ze extra onderstreept.</s>
+      <s>Als ik het bij het rechte eind heb zullen ze u helpen precies te begrijpen wat het is dat de Linux gemeenschap zo'n bron van goede software maakt - en u helpen om zelf produktiever te worden.</s>
+    </p>
+  </chapter>
+</book>

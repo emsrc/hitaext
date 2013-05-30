@@ -1,0 +1,2 @@
+This is a preliminary beta release of Hitaext. 
+If you encounter any problems, please contact me at e.c.marsi@uvt.nl

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hitaext>
+  <from>
+    <filename>sample-of-the-cathedral-and-the-bazaar.xml</filename>
+    <render>
+      <font/>
+      <elements pseudo_root="book">
+        <book blankline="False" ignore="False" newline="False" skip="False" uniq="True"/>
+        <title blankline="True" ignore="False" newline="False" skip="False" uniq="True"/>
+        <author blankline="True" ignore="False" newline="False" skip="False" uniq="True"/>
+        <chapter blankline="False" ignore="False" newline="False" skip="False" uniq="True"/>
+        <head blankline="True" ignore="False" newline="False" skip="False" uniq="True"/>
+        <p blankline="False" ignore="False" newline="True" skip="False" uniq="False"/>
+        <s blankline="False" ignore="False" newline="True" skip="False" uniq="False"/>
+      </elements>
+    </render>
+  </from>
+  <to>
+    <filename>sample-of-de-kathedraal-en-de-bazaar.xml</filename>
+    <render>
+      <font/>
+      <elements pseudo_root="book">
+        <book blankline="False" ignore="False" newline="False" skip="False" uniq="True"/>
+        <title blankline="False" ignore="False" newline="False" skip="False" uniq="True"/>
+        <author blankline="True" ignore="False" newline="False" skip="False" uniq="True"/>
+        <chapter blankline="False" ignore="False" newline="False" skip="False" uniq="True"/>
+        <head blankline="True" ignore="False" newline="False" skip="False" uniq="True"/>
+        <p blankline="False" ignore="False" newline="True" skip="False" uniq="False"/>
+        <s blankline="False" ignore="False" newline="True" skip="False" uniq="False"/>
+      </elements>
+    </render>
+  </to>
+  <alignment>
+    <link from_n="1" from_tag="chapter" to_n="1" to_tag="chapter"/>
+    <link from_n="1" from_tag="head" to_n="1" to_tag="head"/>
+    <link from_n="1" from_tag="p" to_n="1" to_tag="p"/>
+    <link from_n="1" from_tag="s" to_n="1" to_tag="s"/>
+    <link from_n="2" from_tag="s" to_n="2" to_tag="s"/>
+    <link from_n="2" from_tag="p" to_n="2" to_tag="p"/>
+    <link from_n="3" from_tag="s" to_n="3" to_tag="s"/>
+    <link from_n="4" from_tag="s" to_n="4" to_tag="s"/>
+    <link from_n="5" from_tag="s" to_n="5" to_tag="s"/>
+    <link from_n="6" from_tag="s" to_n="6" to_tag="s"/>
+    <link from_n="7" from_tag="s" to_n="7" to_tag="s"/>
+    <link from_n="3" from_tag="p" to_n="3" to_tag="p"/>
+    <link from_n="8" from_tag="s" to_n="8" to_tag="s"/>
+    <link from_n="9" from_tag="s" to_n="9" to_tag="s"/>
+    <link from_n="10" from_tag="s" to_n="10" to_tag="s"/>
+    <link from_n="11" from_tag="s" to_n="11" to_tag="s"/>
+    <link from_n="4" from_tag="p" to_n="4" to_tag="p"/>
+    <link from_n="12" from_tag="s" to_n="12" to_tag="s"/>
+    <link from_n="13" from_tag="s" to_n="12" to_tag="s"/>
+    <link from_n="13" from_tag="s" to_n="13" to_tag="s"/>
+    <link from_n="5" from_tag="p" to_n="5" to_tag="p"/>
+    <link from_n="14" from_tag="s" to_n="14" to_tag="s"/>
+    <link from_n="15" from_tag="s" to_n="15" to_tag="s"/>
+    <link from_n="6" from_tag="p" to_n="6" to_tag="p"/>
+    <link from_n="16" from_tag="s" to_n="16" to_tag="s"/>
+    <link from_n="17" from_tag="s" to_n="17" to_tag="s"/>
+    <link from_n="18" from_tag="s" to_n="18" to_tag="s"/>
+    <link from_n="7" from_tag="p" to_n="7" to_tag="p"/>
+    <link from_n="19" from_tag="s" to_n="19" to_tag="s"/>
+    <link from_n="20" from_tag="s" to_n="19" to_tag="s"/>
+    <link from_n="21" from_tag="s" to_n="20" to_tag="s"/>
+    <link from_n="22" from_tag="s" to_n="21" to_tag="s"/>
+  </alignment>
+</hitaext>

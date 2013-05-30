@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book>
+  <title>The Cathedral and the Bazaar</title>
+  <author>Eric S. Raymond</author>
+  <chapter>
+    <head>The Cathedral and the Bazaar</head>
+    <p>
+      <s>Linux is subversive.</s>
+      <s>Who would have thought even five years ago (1991) that a world-class operating system could coalesce as if by magic out of part-time hacking by several thousand developqers scattered all over the planet, connected only by the tenuous strands of the Internet?</s>
+    </p>
+    <p>
+      <s>Certainly not I.</s>
+      <s>By the time Linux swam onto my radar screen in early 1993, I had already been involved in Unix and open-source development for ten years. </s>
+      <s>I was one of the first GNU contributors in the mid-1980s.</s>
+      <s>I had released a good deal of open-source software onto the net, developing or co-developing several programs (nethack, Emacs's VC and GUD modes, xlife, and others) that are still in wide use today.</s>
+       <s>I thought I knew how it was done.</s>
+    </p>
+    <p>
+      <s>Linux overturned much of what I thought I knew.</s>
+      <s>I had been preaching the Unix gospel of small tools, rapid prototyping and evolutionary programming for years.</s>
+      <s>But I also believed there was a certain critical complexity above which a more centralized, a priori approach was required.</s>
+      <s>I believed that the most important software (operating systems and really large tools like the Emacs programming editor) needed to be built like cathedrals, carefully crafted by individual wizards or small bands of mages working in splendid isolation, with no beta to be released before its time.</s>
+    </p>
+    <p>
+      <s>Linus Torvalds's style of development&#x2014;release early and often, delegate everything you can, be open to the point of promiscuity&#x2014;came as a surprise.</s>
+      <s>No quiet, reverent cathedral-building here&#x2014;rather, the Linux community seemed to resemble a great babbling bazaar of differing agendas and approaches (aptly symbolized by the Linux archive sites, who'd take submissions from anyone) out of which a coherent and stable system could seemingly emerge only by a succession of miracles.</s>
+    </p>
+    <p>
+      <s>The fact that this bazaar style seemed to work, and work well, came as a distinct shock.</s>
+      <s>As I learned my way around, I worked hard not just at individual projects, but also at trying to understand why the Linux world not only didn't fly apart in confusion but seemed to go from strength to strength at a speed barely imaginable to cathedral-builders.</s>
+    </p>
+    <p>
+      <s>By mid-1996 I thought I was beginning to understand.</s>
+      <s>Chance handed me a perfect way to test my theory, in the form of an open-source project that I could consciously try to run in the bazaar style.</s>
+      <s>So I did - and it was a significant success.</s>
+    </p>
+    <p>
+      <s>This is the story of that project.</s>
+      <s>I'll use it to propose some aphorisms about effective open-source development.</s>
+      <s>Not all of these are things I first learned in the Linux world, but we'll see how the Linux world gives them particular point.</s>
+      <s>If I'm correct, they'll help you understand exactly what it is that makes the Linux community such a fountain of good software&#x2014;and, perhaps, they will help you become more productive yourself.</s>
+    </p>
+  </chapter>
+</book>

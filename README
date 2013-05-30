@@ -1,0 +1,105 @@
+================================================================================
+    
+    HITAEXT README
+
+================================================================================
+
+Hitaext: Hierarchical Text Alignment Tool
+Version 1.0
+
+Copyright (C) 2007-2010 by Erwin Marsi and TST-Centrale
+
+http://daeso.uvt.nl/hitaext
+e.c.marsi@uvt.nl
+
+
+--------------------------------------------------------------------------------
+    DESCRIPTION
+--------------------------------------------------------------------------------
+
+Hitaext is a graphical tool for manually aligning pairs of text documents with
+XML markup. It reads two XML documents and allows you to align XML elements on
+the basis of the text they contain. The format of the source and target
+documents is free as long as it is well-formed XML, and both documents are
+read-only. Alignment is virtually unrestricted: you can create one-to-one,
+one-to-many or even many-to-many alignments between arbitrary elements at any
+level of the XML tree structure. The alignments are stored in a simple XML
+format, which can be used for further processing. Hitaext is implemented in
+the Python programming language using the wxPython GUI toolkit. It has been
+tested on Mac OS X, GNU Linux and MS Windows, but should run on any platform
+which is supported by Python and wxPython.
+
+
+--------------------------------------------------------------------------------
+    LICENSE & USAGE
+--------------------------------------------------------------------------------
+
+Hitaext is licensed under the GNU Public License. For detailed license
+information see the file COPYING
+
+Hitaext is provided free of charge. In return I would like to ask the
+following. In technical or scientfic publications about research in which
+Hitaext was used, please refer to one the following papers:
+
+    Erwin Marsi and Emiel Krahmer, "Annotating a parallel monolingual treebank 
+    with semantic similarity relations". In: Proceeding of the Sixth 
+    International Workshop on Treebanks and Linguistic Theories, December 7-8, 
+    2007, Bergen, Norway.
+
+In other cases of commercial or educational use, please link the Hitaext
+webpage http://daeso.uvt.nl/hitaext
+
+
+--------------------------------------------------------------------------------
+    INSTALLATION
+--------------------------------------------------------------------------------
+
+For installation instruction see the file INSTALL.
+
+
+--------------------------------------------------------------------------------
+    USAGE
+--------------------------------------------------------------------------------
+
+For documentation see the Hitaext User Manual located under the Help menu.
+
+
+--------------------------------------------------------------------------------
+	CONTACT
+--------------------------------------------------------------------------------
+
+For questions, bug reports or feature requests, please contact 
+Erwin Marsi at e.c.marsi@uvt.nl.
+
+
+--------------------------------------------------------------------------------
+	ACKNOWLEDGEMENTS
+--------------------------------------------------------------------------------
+
+This software was developed within the DAESO research project
+(http://daeso.uvt.nl) funded by the Stevin programme
+(http://taalunieversum.org/taal/technologie/stevin/)
+
+We gladly acknowledge:  
+
+- the Python programming language (http://www.python.org/)
+- the wxPython GUI toolkit (http://www.wxpython.org/)
+- the Wingware's Python IDE (http://www.wingware.com/)
+- the packaging programs 
+   py2app (http://svn.pythonmac.org/py2app/py2app/trunk/doc/index.html), 
+   py2exe (http://www.py2exe.org/), and 
+   Inno Setup (http://www.jrsoftware.org/isinfo.php)
+- the feedback from annotators Paul van Pelt and Jurry de Vos
+
+
+$Id:$
+
+
+
+
+
+
+
+
+
+

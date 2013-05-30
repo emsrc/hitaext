@@ -1,0 +1,46 @@
+Bugs:
+- CTRL-TAB does not work on Intel OS X
+- CTRL-TAB oes not move focus on Linux
+- log window should scroll
+- doc root is not skipped
+- TextCtrl positioning is still buggy (OSX)
+- save & save_as should be unavailable (greyed) when no file is loaded
+- print line numbers when raising error messages (cf. trace module)
+- file extension are not added automatically (OS X)?
+- Strange line under sliders (MSW)
+- Using TAB generates an annoying  beep (MSW)
+
+Distribution:
+- 
+
+Code improvements:
+- show GPL
+- extend help
+- handle XML namespaces
+- display version, CVS revision, and license
+- ERROR messages in red
+- add doc strings
+- improve error handling
+- error feedback with print_exc from module traceback
+- add debugging info to log
+
+Functionality:
+- upper limit on lenght of text shown should come from render section
+- reading/saving alignments by id
+- reopen/revert alignment
+- change render options through GUI (requires reprocessing of trees!)
+  bind to Preferences in Application menu
+- change font through GUI: perhaps merge with render options, per platform
+- BACKSPACE to del all alignments
+- show info about tag attributes
+- log time and editor on items and write to link elems
+- unit tests
+
+Long term goals / ideas:
+- use embedded web browser + CSS to render text
+- use standard pytghon log module
+
+
+
+
+

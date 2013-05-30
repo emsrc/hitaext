@@ -1,0 +1,24 @@
+================================================================================
+HITAEXT CHANGES
+================================================================================
+
+--------------------------------------------------------------------------------
+Version 1.0
+--------------------------------------------------------------------------------
+
+Final version released at end of DAESO project.
+
+- hitaext source now depends on the Daeso Framework library
+- fixed relative path bug, so relative document file paths are now by default 
+  interpreted relative to the dir containing the alignment file 
+- id-based alignment in addition to n-based alignment,
+  depending on the value of the "method" attribute
+  (either "n" or "id") on the "alignment" element
+- alignment files have default extension "ptc" (for "parallel text corpus")
+- alignment file (parallel text corpus) can be passed as command line argument
+
+--------------------------------------------------------------------------------
+Version 0.5.0
+--------------------------------------------------------------------------------
+
+- first public release of Hitaext
