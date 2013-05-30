@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2007-2010 by 
+# Copyright (C) 2007-2013 by 
 # Erwin Marsi and TST-Centrale
 #
 #
@@ -560,7 +560,7 @@ class HitaextFrame(wx.Frame):
         info.SetDescription("Hierarchical text alignment tool")
         info.SetVersion("Version: " + __version__)
         info.SetCopyright("GNU Public License")
-        info.SetWebSite("http://daeso.uvt.nl")
+        info.SetWebSite("https://github.com/emsrc/hitaext")
         wx.AboutBox(info)
     
     def onHelp(self, evt):

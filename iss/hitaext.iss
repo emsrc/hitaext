@@ -5,9 +5,9 @@
 AppName=Hitaext
 AppVerName=Hitaext 1.0
 AppPublisher=Tilburg University - Erwin Marsi
-AppPublisherURL=http://daeso.uvt.nl/
-AppSupportURL=http://daeso.uvt.nl/
-AppUpdatesURL=http://daeso.uvt.nl/
+AppPublisherURL=https://github.com/emsrc/hitaext
+AppSupportURL=https://github.com/emsrc/hitaext
+AppUpdatesURL=https://github.com/emsrc/hitaext
 DefaultDirName={pf}\Hitaext
 DefaultGroupName=Hitaext
 LicenseFile=D:\Documents and Settings\Erwin\Desktop\Projects\trunk\software\intern\hitaext\COPYING

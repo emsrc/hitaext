@@ -1,7 +1,7 @@
 #!/usr/bin/env pythonw
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2007-2010 by 
+# Copyright (C) 2007-2013 by 
 # Erwin Marsi and TST-Centrale
 #
 #
@@ -20,7 +20,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-__version__ = "$Id: hitaext.py 1295 2010-04-15 03:38:31Z emarsi $"
+__version__ = "1.0"
 __author__ = "Erwin Marsi"
 
 from htxt.gui import Hitaext

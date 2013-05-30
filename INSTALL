@@ -7,10 +7,10 @@
 Hitaext: Hierarchical Text Alignment Tool
 Version 1.0
 
-Copyright (C) 2007-2010 by Erwin Marsi and TST-Centrale
+Copyright (C) 2007-2013 by Erwin Marsi and TST-Centrale
 
-http://daeso.uvt.nl/hitaext
-e.c.marsi@uvt.nl
+https://github.com/emsrc/hitaext
+e.marsi@gmail.com
 
 
 --------------------------------------------------------------------------------
@@ -84,9 +84,10 @@ Install:
    should not return any errors ("command not found", "ImportError", etc)
    
 2. Install Daeso Framework, a Python library available from 
-   http://daeso.uvt.nl
+   https://github.com/emsrc/daeso-framework/wiki/Python-packages
    
 3. Download the source archive in your preferred format (e.g. hitaext-1.0.tar.gz)
+   from https://github.com/emsrc/hitaext/wiki/Python-Packages
 
 3. Unpack (e.g. tar xvzf hitaext-1.0.tar.gz) in a suitable location 
    (e.g. /usr/local/src)
@@ -128,8 +129,6 @@ Uninstall:
 
 3. Remove the files copied in step 8 of the installation. 
 
-
-$Id:$
 
 
    

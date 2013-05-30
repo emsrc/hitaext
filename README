@@ -7,10 +7,10 @@
 Hitaext: Hierarchical Text Alignment Tool
 Version 1.0
 
-Copyright (C) 2007-2010 by Erwin Marsi and TST-Centrale
+Copyright (C) 2007-2013 by Erwin Marsi and TST-Centrale
 
 http://daeso.uvt.nl/hitaext
-e.c.marsi@uvt.nl
+e.marsi@gmail.com
 
 
 --------------------------------------------------------------------------------
@@ -47,13 +47,15 @@ Hitaext was used, please refer to one the following papers:
     2007, Bergen, Norway.
 
 In other cases of commercial or educational use, please link the Hitaext
-webpage http://daeso.uvt.nl/hitaext
+webpage https://github.com/emsrc/hitaext
 
 
 --------------------------------------------------------------------------------
     INSTALLATION
 --------------------------------------------------------------------------------
 
+Python packages are available from 
+https://github.com/emsrc/hitaext/wiki/Python-Packages
 For installation instruction see the file INSTALL.
 
 
@@ -69,7 +71,7 @@ For documentation see the Hitaext User Manual located under the Help menu.
 --------------------------------------------------------------------------------
 
 For questions, bug reports or feature requests, please contact 
-Erwin Marsi at e.c.marsi@uvt.nl.
+Erwin Marsi at e.marsi@gmail.com.
 
 
 --------------------------------------------------------------------------------
@@ -92,7 +94,6 @@ We gladly acknowledge:
 - the feedback from annotators Paul van Pelt and Jurry de Vos
 
 
-$Id:$
 
 
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2007-2010 by 
+# Copyright (C) 2007-2013 by 
 # Erwin Marsi and TST-Centrale
 #
 #
